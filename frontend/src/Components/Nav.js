@@ -1,11 +1,11 @@
 import "./Nav.css";
+import { Link } from "react-router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; //TO GET ICONS
 import { faSearch, faBars, faTimes } from "@fortawesome/free-solid-svg-icons"; //TO GET SPECIFIC ICON
 import BUILD_LOGO from "../Components/Images/BUILD_LOGO.png";
 function Nav() {
   return (
     <nav>
-      
       <a href="index.html" className="logo-area">
         <div>
           <img src={BUILD_LOGO} alt="LOGO" />
@@ -15,16 +15,16 @@ function Nav() {
       <div>
         <ul className="nav-list">
           <li>
-            <a href="">HOME</a>
+            <Link to="/">HOME</Link>
           </li>
           <li>
-            <a href="">SERVICES</a>
+            <Link to="/">SERVICES</Link>
           </li>
           <li>
-            <a href="">ABOUT</a>
+            <Link to="/">ABOUT</Link>
           </li>
           <li>
-            <a href="">SHOP</a>
+            <Link to="/products">SHOP</Link>
           </li>
           <li>
             <a href="" className="call">

@@ -9,6 +9,7 @@ nav{
     justify-content: space-between;
     padding: 20px 80px;
     font-weight: 600;
+    background-color:#cbcbcb;
 }
 nav a{
     text-decoration: none;
