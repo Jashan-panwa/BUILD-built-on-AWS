@@ -1,0 +1,75 @@
+:root {
+  --bright:#FFB607;
+  --dark:black;
+  --light:white;
+}
+.sectionthree-wrapper {
+    padding: 90px 130px;
+    text-align: center;
+}
+.sectionthree-heading{
+    font-size: 30px;
+    font-weight: 400;
+}
+.sectionthree-para{
+    margin:3px;
+    margin-bottom:40px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.sectionthree-box{
+    display: flex;
+    justify-content: space-around;
+}
+.sectionthree-eachbox{
+    width: 40%;
+    text-align: left; 
+}
+.img1{
+    background-image: url(../Components/Images/section-three-a.jpeg);
+}
+.img2{
+    background-image: url(../Components/Images/section-three-b.jpg);
+}
+.sectionthree-imgbox{
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width:500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+.sectionthree-search{
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+    color:var(--light);
+    background-color: var(--bright);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    transition:all 0.5s ease-in-out;
+}
+.sectionthree-imgbox:hover{
+    .sectionthree-search{
+         height: 60px;
+         width: 60px;
+    }
+}
+.a-section-three{
+    color:var(--light);
+}
+.eachbox-heading{
+    color:var(--bright);
+    margin:10px 0px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.eachbox-heading-para{
+    font-size: 18px;
+    font-weight: 100;
+}

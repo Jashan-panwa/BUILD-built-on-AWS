@@ -1,0 +1,64 @@
+:root {
+  --bright:#FFB607;
+  --dark:black;
+  --light:white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    font-weight: 600;
+}
+nav a{
+    text-decoration: none;
+    color:var(--dark);
+}
+.logo-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-area img{
+    height:55px;
+    width:75px;
+}
+.logo-area-text{
+    margin:8px;
+    font-size:40px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-list li{
+    list-style: none;
+    padding: 0 20px;
+}
+.nav-list li a {
+    position: relative;
+    
+}
+
+.nav-list li a:hover::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 50%; 
+    width: 35%; 
+    height: 5px;
+    background-color:var(--bright);
+    transform: translateX(-50%);
+    transition:all 1s ease-in-out;
+}
+.call{
+    color:var(--bright);
+}
+/* ------make it resposnive-------*/
+.hamburger{
+    font-size: 25px;
+}
+.cross{
+    font-size: 25px;
+}

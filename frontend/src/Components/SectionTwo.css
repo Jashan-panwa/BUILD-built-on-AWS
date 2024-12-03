@@ -1,0 +1,40 @@
+:root {
+  --bright:#FFB607;
+  --dark:black;
+  --light:white;
+}
+.sectionTwo-wrapper{
+    background-color: var(--bright);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 150px;
+    color: var(--light);
+}
+.sectionTwo-left{
+  margin-right: 60px;
+}
+.sectionTwo-left-heading{
+  font-size:50px;
+  font-weight: 500;
+  margin-bottom:20px
+}
+.sectionTwo-left-para{
+   font-size:20px;
+  font-weight: 300;
+  margin-bottom:30px
+}
+.sectionTwo-left-button{
+  background-color:var(--dark);
+  color:var(--light);
+  font-size:15px;
+  font-weight: 300;
+  width:120px;
+  height: 40px;
+  border-radius: 4px;
+  transition:all 1s ease-in-out;
+}
+.sectionTwo-left-button:hover{
+  background-color: var(--light);
+  color: var(--dark);
+}

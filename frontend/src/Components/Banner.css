@@ -1,0 +1,39 @@
+:root {
+  --bright:#FFB607;
+  --dark:black;
+  --light:white;
+}
+.wrapper-banner{
+    background-image: url(../Components/Images/banner_image.jpg);
+     background-size: cover;
+     background-position: center;
+     text-align: center;
+     height: 450px;
+     padding: 200px;
+     margin-top: -200px;
+}
+.heading{
+    font-size: 125px;
+    font-weight:bold;
+}
+.text{
+    font-size: 20px;
+    font-weight:200;
+}
+.banner-button{
+    margin-top:350px;
+    border-radius: 15px;
+    background-color:var(--bright) ;
+    color:var(--light);
+    height: 50px;
+    width:130px;
+    border: white;
+    font-size: 17px;
+    font-weight:300;
+    transition:all 0.5s ease-in-out;
+}
+.banner-button:hover{
+    color:var(--bright);
+    background-color: var(--light);
+    border: 2px solid var(--bright);
+}

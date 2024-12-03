@@ -1,0 +1,140 @@
+:root {
+  --bright: #ffb607;
+  --dark: black;
+  --light: white;
+}
+.section-six-wrapper {
+  text-align: center;
+  padding: 10px 100px;
+}
+.section-6-head {
+  font-size: 30px;
+  font-weight: 400;
+}
+.section-6-para {
+  margin: 4px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 100;
+}
+/* -------------------ALL BOX -------------- */
+.section-6-box {
+  padding: 0 120px;
+  box-sizing: border-box;
+}
+/* -------------------TOP BOX -------------- */
+.section-6-box-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+/* -------------------TOP BOX LEFT-------------- */
+.section-6-box-top1 {
+  width: 60%;
+  height: 100%;
+  border: 3px solid var(--dark);
+  box-sizing: border-box;
+}
+/* -------------------TOP BOX RIGHT-------------- */
+.section-6-box-top2 {
+  height: 100%;
+  width: 40%;
+  box-sizing: border-box;
+}
+/* -------------------BOTTOM BOX-------------- */
+.section-6-box-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+/* -------------------BOTTOM BOX LEFT-------------- */
+.section-6-box-bottom1 {
+  height: 100%;
+  width: 40%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: end;
+}
+/* ------------------BOTTOM BOX RIGHT-------------- */
+.section-6-box-bottom2 {
+  height: 100%;
+  width: 60%;
+  border: 3px solid var(--dark);
+  box-sizing: border-box;
+}
+/* -------------------COMMENT B0X(COMMENT+IMAGE)-------------- */
+.section-6-comment-box {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  box-sizing: border-box;
+}
+/* -------------------COMMENT B0X(IMAGE)-------------- */
+.section-6-comment-box-image {
+  height: 100%;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+/* -------------------COMMENT B0X(IMAGE SET 1)-------------- */
+.section6-img-2 {
+  background-image: url(../Components/Images/section-6-2.webp);
+}
+/* -------------------COMMENT B0X(IMAGE SET 2)-------------- */
+.section6-img-1 {
+  background-image: url(../Components/Images/section-6-1.webp);
+}
+/* -------------------COMMENT B0X(IMAGE ICON)-------------- */
+.section-6-IMG-icon {
+  position: absolute;
+  bottom: -25px;
+  color: var(--bright);
+  font-size: 50px;
+}
+/* -------------------COMMENT B0X(CONTENT)-------------- */
+.section-6-comment-box-content {
+  text-align: left;
+  padding: 15px;
+}
+/* -------------------COMMENT B0X(CONTENT HEADING)-------------- */
+.section-6-comment-box-content-heading {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10 0px;
+}
+/* -------------------COMMENT B0X(CONTENT PARA)-------------- */
+.section-6-comment-box-content-para {
+  font-size: 15px;
+  font-weight: 400;
+}
+/* ------------------BOTTOM B0X LEFT DOTS-------------- */
+.section-6-box-bottom1-dots{
+  margin:10px;
+  height: 40px;
+  width: 40px;
+  background-color: var(--bright);
+  border-radius: 50%;
+  color:var(--light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   transition: all 1s ease-in-out;
+   font-weight: 900;
+   font-size: 20px;
+}
+.section-6-box-bottom1-dots:hover{
+  background-color: var(--dark);
+}
+.section-6-box-bottom1-dots-center{
+     background-color: var(--dark);
+}

@@ -1,0 +1,75 @@
+:root {
+  --bright: #ffb607;
+  --dark: black;
+  --light: white;
+}
+.section-five-wrapper {
+  text-align: center;
+  padding: 100px 200px;
+}
+.section-five-heading {
+  font-size: 30px;
+  font-weight: 400;
+}
+.section-five-para {
+  margin: 4px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 100;
+}
+.section-five-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-five-box-one {
+  background-image: url(../Components/Images/section-five-1.jpeg);
+}
+.section-five-box-two {
+  background-image: url(../Components/Images/section-five-2.jpg);
+}
+.section-five-box-three {
+  background-image: url(../Components/Images/section-five-3.webp);
+}
+.section-five-eachbox {
+  background-position: center;
+  background-size: cover;
+  width: 31%;
+  height: 300px;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.section-five-eachbox-shade {
+  background-color: var(--bright);
+  height: 0%;
+  width: 0%;
+  margin:11px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+}
+.section-five-eachbox-shade a {
+  text-decoration: none;
+  color: var(--light);
+  border: 2px solid var(--light);
+  padding: 20px;
+}
+.section-five-eachbox:hover {
+  .section-five-eachbox-shade {
+    height: 93%;
+    width: 93%;
+  }
+}
+.section-five-eachbox-heading {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--light);
+  bottom: 15px;
+}
