@@ -1,0 +1,11 @@
+.woodtype{
+    background-color: white;
+    color: #ffb607;
+    border: 2px dotted #ffb607;
+    width: 100px;
+    border-radius: 30px;
+}
+.woodtype:hover{
+    background-color:#ffb607;
+    color: white;
+}

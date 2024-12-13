@@ -115,23 +115,32 @@ li a {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Navbar</title>
+    <link rel="icon" href="BUILD_LOGO.png">
+    <title>BUILD ADMIN PANEL</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <style>
     .sec {
-        width: 250px;
-        height: 100px;
+        width: 600px;
+        height: 300px;
         border: 1px solid;
-        background-color: rgba(252, 120, 157, 0.796);
-        border-radius: 10px;
         margin: 20px;
+        font-size: 80px;
+        color: #ffb607;
         text-align: center;
         padding: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 2px;
+        border: dotted #ffb607;
+        border-width: 10px 4px;
+        border-radius: 10px 40px;
+    }
+    .sec:hover{
+        color:white;
+        background-color:#ffb607;
     }
     a {
             text-decoration: none; 
@@ -143,12 +152,12 @@ li a {
     
 </style>
 <body>
-    <nav class="navbar navbar-dark bg-dark mb-5">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/localhost:3000/">Shopify</a>
+    <nav class="navbar navbar-dark  mb-5" style="background-color: #cbcbcb;font-size:30px;">
+        <div class="container-fluid" >
+            <a class="navbar-brand" href="" style="color: #ffb607;font-size:30px;">BUILD</a>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="/" style="float: right;">Admin Panel</a>
+                    <a class="nav-link" href="" style="float: right;color: #ffb607;font-size:30px;">Admin Panel</a>
                 </li>
             </ul>
         </div>
@@ -158,16 +167,16 @@ li a {
         <div class="row flex-wrap justify-content-center align-items-center">
             <div class="col">
                 <div class="d-flex justify-content-center">
-                    <a href="/" class="sec" style="background:#8a2be24f ;">Home</a>
-                    <a href="/catogory" class="sec" style="background:#92ffff85 ;">Category</a>
-                    <a href="/products" class="sec" style="background: #b3ffb3cf;">Menu</a>
+                    <a href="" class="sec">Home</a>
+                    <a href="/catogory" class="sec">Category</a>
+                    <a href="/products" class="sec">Collection</a>
                 </div>
             </div>
             <div class="col">
                 <div class="d-flex justify-content-center">
-                    <a href="/user" class="sec" style="background: rgba(252, 252, 100, 0.812);">User</a>
-                    <a href="/contactus" class="sec" style="background: rgba(255, 166, 0, 0.5);">Contact Us</a>
-                    <a href="/logout" class="sec" style="background: #ff000085;">Logout</a>
+                    <a href="" class="sec">User</a>
+                    <a href="" class="sec">Contact Us</a>
+                    <a href="" class="sec">Logout</a>
                 </div>
             </div>
         </div>

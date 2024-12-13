@@ -1,68 +1,102 @@
 <html>
-    <body>
-        <a href="/" style="font-size: 20px;">Home</a>
-        <div style="width: 1200px; text-align: center; ;">
-            
-            <h3 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Add Food Item</h3>
-        
-            <form action="/addproduct_submit" method="post" enctype="multipart/form-data">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-                <table align="center" border="1" cellspacing="5">
-                    <!-- <tr>
+  <body>
+    <nav
+      class="navbar navbar-dark mb-5"
+      style="background-color: #cbcbcb; font-size: 30px"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/" style="color: #ffb607; font-size: 30px"
+          >BUILD</a
+        >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="#"
+              style="float: right; color: #ffb607; font-size: 30px"
+              >Admin Panel</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div style="width: 1200px; text-align: center">
+      <h3
+        style="
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        "
+      >
+        Add Food Item
+      </h3>
+
+      <form
+        action="/addproduct_submit"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <table align="center" border="1" cellspacing="5">
+          <!-- <tr>
                         <td>ProductId</td>
                         <td> <input type="number" name="PID"></td>
                     </tr> -->
-                    <!-- <tr>
+          <!-- <tr>
                         <td>CatogoryId</td>
                         <td> <input type="number" name="CID"></td>
                     </tr> -->
-                    <tr>
-                        <td>ProductName</td>
-                        <td> <input type="text" name="productName"></td>
-                    </tr>
-                    <tr>
-                        <td>Brand</td>
-                        <td> <input type="text" name="productBrand"></td>
-                    </tr>
-                    <tr>
-                        <td>ProductDescription</td>
-                        <td> <input type="text" name="productDetails"></td>
-                    </tr>
-                    <tr>
-                        <td>ProductMRP</td>
-                        <td> <input type="number" name="productMRP" min="50"></td>
-                    </tr>
-                    <tr>
-                        <td>ProductPrice</td>
-                        <td> <input type="number" name="productPrice" min="50"></td>
-                    </tr>
-                    <tr>
-                        <td>Category</td>
-                        <td>
-                            <select name="productCatogory">
-                                <option>Men</option>
-                                <option>Women</option>
-                                <option>Kids</option>
-                                <option>Accesories</option>
-                                <option>Home Decor</option>
-                                <option>Footwear</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>ProductImage</td>
-                        <td> <input type="file" name="productImage"></td>
-                    </tr>
+          <tr>
+            <td>ProductName</td>
+            <td><input type="text" name="productName" /></td>
+          </tr>
+          <tr>
+            <td>Brand</td>
+            <td><input type="text" name="productBrand" /></td>
+          </tr>
+          <tr>
+            <td>ProductDescription</td>
+            <td><input type="text" name="productDetails" /></td>
+          </tr>
+          <tr>
+            <td>ProductMRP</td>
+            <td><input type="number" name="productMRP" min="50" /></td>
+          </tr>
+          <tr>
+            <td>ProductPrice</td>
+            <td><input type="number" name="productPrice" min="50" /></td>
+          </tr>
+          <tr>
+            <td>Category</td>
+            <td>
+              <select name="productCatogory">
+                <option>Bed</option>
+                <option>Sofa</option>
+                <option>Decor</option>
+                <option>Others</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>ProductImage</td>
+            <td><input type="file" name="productImage" /></td>
+          </tr>
 
-
-                    <tr>
-                        <td colspan="2" align="center">
-                            <input type="submit" value="Add Items" style="background-color: red; width: 100%;"></td>
-                    </tr>
-                </table>
-                
-            </form>
-            
-        </div>
-    </body>
+          <tr>
+            <td colspan="2" align="center">
+              <input
+                type="submit"
+                value="Add Items"
+                style="background-color: red; width: 100%"
+              />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
 </html>
