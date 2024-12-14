@@ -10,22 +10,20 @@ The BUILD project is an e-commerce website designed for showcasing furniture pro
 - **User Interface**: Includes product browsing, search functionality, detailed views, and a shopping cart.
 
 ## IMAGES
-![Image](Images/Screenshot (96).png)
-
-## IMAGES
 ![Image](Images/Screenshot1.png)
-![Image](Images/Screenshot (98).png)
-![Image](Images/Screenshot (99).png)
-![Image](Images/Screenshot (100).png)
-![Image](Images/Screenshot (101).png)
-![Image](Images/Screenshot (102).png)
-![Image](Images/Screenshot (103).png)
-![Image](Images/Screenshot (104).png)
-![Image](Images/Screenshot (105).png)
-![Image](Images/Screenshot (106).png)
-![Image](Images/Screenshot (107).png)
-![Image](Images/Screenshot (108).png)
-![Image](Images/Screenshot (109).png)
+![Image](Images/Screenshot2.png)
+![Image](Images/Screenshot3.png)
+![Image](Images/Screenshot4.png)
+![Image](Images/Screenshot5.png)
+![Image](Images/Screenshot6.png)
+![Image](Images/Screenshot7.png)
+![Image](Images/Screenshot8.png)
+![Image](Images/Screenshot9.png)
+![Image](Images/Screenshot10.png)
+![Image](Images/Screenshot11.png)
+![Image](Images/Screenshot12.png)
+![Image](Images/Screenshot13.png)
+![Image](Images/Screenshot14.png)
 
 
 ## Getting Started
