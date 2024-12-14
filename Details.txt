@@ -1,0 +1,37 @@
+npm run build is used
+go to s3
+create bucket
+- aws regin, name- 
+create bucket
+upload build file in it
+s3>properties>bottom static website hosting>edit>enable, hosting-static, path-index,html>sav changes
+s3>permission>block public access>edit>uncheck>savechanges>confirm
+s3>permission>bucket policy>edit>policy generater> 
+type of policy- s3 bucket policy
+effect-allow
+prinicapal-*
+action-getobject
+arn-copy it from bucket policy page
+add statement
+generate policycopy the code, paste it add /* to resources and save changes
+in properties>bottom we have our link
+
+name=buildbuiltonaws, region-US East (N. Virginia) us-east-1
+policy=
+{
+  "Id": "Policy1734081945880",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1734081943818",
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::buildbuiltonaws/*",
+      "Principal": "*"
+    }
+  ]
+}
+
+website link=http://buildbuiltonaws.s3-website-us-east-1.amazonaws.com/
