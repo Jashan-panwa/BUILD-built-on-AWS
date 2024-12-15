@@ -24,6 +24,7 @@ The BUILD project is an e-commerce website designed for showcasing furniture pro
 ![Image](Images/Screenshot12.png)
 ![Image](Images/Screenshot13.png)
 ![Image](Images/Screenshot14.png)
+![Image](Images/Screenshot15.png)
 
 
 ## Getting Started
