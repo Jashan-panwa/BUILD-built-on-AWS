@@ -4,7 +4,7 @@ const Techniquespage = () => {
   return (
     <div className="container mt-5">
       <h1 className="mb-5" style={{ color: "#ffb607" }}>
-        Techniques We Use :-
+        Services We Offer :-
       </h1>
       <hr />
       <div className="videos-container" style={{paddingTop:"200px"}}>
